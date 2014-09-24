@@ -1,12 +1,10 @@
-# Risk Jargon Generator
+# Jargon Generator
 
 Leverage synergies going forward.
 
-[Live Demo](http://johnwalley.github.io/risk-jargon-generator/)
+[Live Demo](http://johnwalley.github.io/dlm-jargon-generator/)
 
-![Demo](https://github.com/johnwalley/risk-jargon-generator/raw/master/demo.gif)
-
-[![Build Status](https://travis-ci.org/johnwalley/risk-jargon-generator.png)](https://travis-ci.org/johnwalley/risk-jargon-generator)
+[![Build Status](https://travis-ci.org/johnwalley/dlm-jargon-generator.png)](https://travis-ci.org/johnwalley/dlm-jargon-generator)
 
 ### Local Development
 
