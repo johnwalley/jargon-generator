@@ -2,9 +2,9 @@
 
 Leverage synergies going forward.
 
-[Live Demo](http://johnwalley.github.io/dlm-jargon-generator/)
+[Live Demo](http://johnwalley.github.io/jargon-generator/)
 
-[![Build Status](https://travis-ci.org/johnwalley/dlm-jargon-generator.png)](https://travis-ci.org/johnwalley/dlm-jargon-generator)
+[![Build Status](https://travis-ci.org/johnwalley/jargon-generator.png)](https://travis-ci.org/johnwalley/jargon-generator)
 
 ### Local Development
 
