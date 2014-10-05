@@ -2,7 +2,7 @@
 
 /* Services */
 
-angular.module('riskJargonGenerator.services', []).
+angular.module('jargonGenerator.services', []).
   value('version', '0.2').
   constant('Config', {
   	title: "Database"

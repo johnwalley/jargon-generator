@@ -1,11 +1,11 @@
 'use strict';
 
 // Declare app level module which depends on filters, and services
-angular.module('riskJargonGenerator', [
-	'riskJargonGenerator.controllers',
-  'riskJargonGenerator.services',
-  'riskJargonGenerator.directives',
-  'riskJargonGenerator.filters',
+angular.module('jargonGenerator', [
+	'jargonGenerator.controllers',
+  'jargonGenerator.services',
+  'jargonGenerator.directives',
+  'jargonGenerator.filters',
   'ui.router',
   'ui.bootstrap',
   'ParseServices',

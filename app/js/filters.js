@@ -2,7 +2,7 @@
 
 /* Filters */
 
-angular.module('riskJargonGenerator.filters', ['riskJargonGenerator.services']).
+angular.module('jargonGenerator.filters', ['jargonGenerator.services']).
 filter('interpolate', ['version', function(version) {
   return function(text) {
     return String(text).replace(/\%VERSION\%/mg, version);
