@@ -3,7 +3,7 @@
 /* jasmine specs for services go here */
 
 describe('service', function() {
-  beforeEach(module('riskJargonGenerator.services'));
+  beforeEach(module('jargonGenerator.services'));
 
 
   describe('version', function() {

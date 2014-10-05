@@ -3,7 +3,7 @@
 /* jasmine specs for filters go here */
 
 describe('filter', function() {
-  beforeEach(module('riskJargonGenerator.filters'));
+  beforeEach(module('jargonGenerator.filters'));
 
 
   describe('interpolate', function() {

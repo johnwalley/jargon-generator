@@ -3,7 +3,7 @@
 /* jasmine specs for controllers go here */
 
 describe('controllers', function(){
-  beforeEach(module('riskJargonGenerator.controllers'));
+  beforeEach(module('jargonGenerator.controllers'));
 
 
   it('should ....', inject(function() {
