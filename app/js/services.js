@@ -4,6 +4,9 @@
 
 angular.module('riskJargonGenerator.services', []).
   value('version', '0.2').
+  constant('Config', {
+  	title: "Database"
+  }).
   factory('Jargon',
     function() {
     var constructs = [{
