@@ -2,8 +2,11 @@
 
 /* Services */
 
-angular.module('riskJargonGenerator.services', []).
+angular.module('jargonGenerator.services', []).
   value('version', '0.2').
+  constant('Config', {
+  	title: "Database"
+  }).
   factory('Jargon',
     function() {
     var constructs = [{
@@ -102,7 +105,7 @@ angular.module('ParseServices', []).
   factory('ParseSDK', function() {
 
   // pro-tip: swap these keys out for PROD keys automatically on deploy using grunt-replace
-  Parse.initialize("prP3hizyid9MPKOEZaus97jg0GbNCUkTJd44Elai", "qMn3rd66bA8eLyuYPLJP4I3ZNo5qvVklNUOKH0Bp");
+  Parse.initialize("SEOEbvnk6ODDZ2aXBfdz4K5FPaFtoqBHHuwGZ4YP", "QTxiff6sFHkRsZNkiVSNINy9ZSRxAkqe1eAESPXA");
 });
 
 angular.module('ParseServices')

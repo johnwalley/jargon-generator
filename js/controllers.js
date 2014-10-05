@@ -2,7 +2,11 @@
 
 /* Controllers */
 
-angular.module('riskJargonGenerator.controllers', ['riskJargonGenerator.services']).
+angular.module('jargonGenerator.controllers', ['jargonGenerator.services']).
+controller('MainCtrl', ['$scope', 'Config',
+  function($scope, Config) {
+    $scope.title = Config.title;
+}]).
 controller('JargonCtrl', ['$scope', 'Jargon', 'JargonService', 'History', 'verbs', 'abbreviations', 'nouns', 'adjectives',
   function($scope, Jargon, JargonService, History, verbs, abbreviations, nouns, adjectives) {
 	
